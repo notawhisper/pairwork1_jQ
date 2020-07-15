@@ -1,0 +1,103 @@
+html {
+  height: 100%; /*heightの設定 */
+  width: 100%;
+  margin: 0 ;
+  padding: 0;
+}
+.logo_image {
+  height: 200px;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%; /*heightの設定 */
+  background-color: black;
+  color: aliceblue;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contents-wrapper {
+  position: relative;　/*フッターに対して基準を宣言*/
+  min-height: 100%;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  padding-bottom: 140px;
+}
+
+
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+
+}
+.btn-square-raised {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: white;/*ボタン色*/
+  color: black;/*ボタン色と同じに*/
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px white;
+  border-radius: 3px;/*角の丸み*/
+  font-weight: bold;
+  text-shadow: -1px -1px rgba(255, 255, 255, 0.44), 1px 1px rgba(0, 0, 0, 0.38);
+}
+
+/* .btn-square-raised:active {
+
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+} */
+
+.table-wrapper {
+  width: 100%;
+  font-size: 32px;
+}
+
+#contact {
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+#textarea {
+  height: 40px;
+  vertical-align: middle;
+  display: table; /*追加、子要素である入力欄にvertical-align: middle;を適用させるため*/
+}
+
+#textarea textarea {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contact-text {
+  vertical-align: middle; /*文字を真ん中に配置*/
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  display: table;
+  /* position: relative; */
+}
+
+footer p {
+  display: table-cell;
+  /* margin-bottom: 0; */
+  vertical-align: bottom;
+  /* position: absolute; */
+  /* left: auto;
+  right: auto;
+  bottom: 5px; */
+}

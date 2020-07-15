@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nomalize.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <title>お問い合わせフォーム</title>
+  </head>
+  <body>
+    <div class="contents-wrapper">
+      <header>
+        <img src="header.JPG" class="logo_image" id="randamImg">
+      </header>
+      <div class="form-wrapper">
+        <form>
+          <div class="table-wrapper">
+            <table id="contact">
+              <tr class="name">
+                <td>お名前　</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>メールアドレス　</td>
+                <td><input type="email" class="mail"></td>
+              </tr>
+              <tr>
+                <td>電話番号　</td>
+                <td><input type="tell" class="tell"></td>
+              </tr>
+                <td>日付 </td>
+                <td><input type="text" id="datepicker"></td>
+              <tr>
+                <td class="contact-text">お問い合わせ内容　</td>
+                <td  id="textarea"><textarea></textarea></td>
+              </tr>
+            </table>
+          </div>
+          <div class="button">
+            <input id="rich" type="button" class="btn-square-raised" value="送信">
+          </div>
+        </form>
+      </div>
+
+      <footer>
+        <p>Copyright © 2020 YAMAMOTOMURA STUDIO.</p>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
